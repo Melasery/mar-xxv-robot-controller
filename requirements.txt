@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+websockets
+RPi.GPIO
+opencv-python
+pygame
+gtts
