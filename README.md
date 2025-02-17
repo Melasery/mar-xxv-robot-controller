@@ -30,7 +30,7 @@ Ensure your Raspberry Pi has:
 
 ### **2️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/mar-xxv-robot.git
+git clone https://github.com/Melasery/mar-xxv-robot.git
 cd mar-xxv-robot
 ```
 
