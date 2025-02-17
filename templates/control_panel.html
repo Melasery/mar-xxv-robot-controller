@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAR-XXV Robot Controller</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>MAR-XXV Robot Control Panel</h1>
+
+    <!-- Video Feed -->
+    <div class="video-container">
+        <img id="video-stream" src="/video_feed" alt="Robot Camera Feed">
+    </div>
+
+    <!-- Movement Controls -->
+    <div class="controls">
+        <button id="move-forward">⬆️ Forward</button>
+        <div>
+            <button id="move-left">⬅️ Left</button>
+            <button id="stop">⏹ Stop</button>
+            <button id="move-right">➡️ Right</button>
+        </div>
+        <button id="move-backward">⬇️ Backward</button>
+    </div>
+
+    <!-- Text to Speech -->
+    <div class="tts-section">
+        <input type="text" id="tts-input" placeholder="Enter text to speak...">
+        <button id="speak">🗣 Speak</button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/static/script.js"></script>
+</body>
+</html>
