@@ -6,9 +6,7 @@
 - 🗣 **Text-to-Speech (TTS)**
 - 📡 **WebSocket Communication**
 
-![MAR-XXV Interface](docs/interface_screenshot.png)
 
----
 
 ## **📌 Features**
 - ✅ **Live Video Streaming** - View real-time footage from the robot.
@@ -18,7 +16,7 @@
 - ✅ **WebSockets Communication** - Low-latency control signals.
 - ✅ **Raspberry Pi Compatible** - Designed for embedded systems.
 
----
+
 
 ## **⚙️ Installation & Setup (For Raspberry Pi)**
 ### **1️⃣ Prerequisites**
@@ -45,7 +43,7 @@ pip install -r requirements.txt
 ```bash
 ./run.sh
 ```
-📝 The server starts at `http://localhost:8000`.
+The server starts at `http://localhost:8000`.
 If running on a Raspberry Pi, replace `localhost` with its IP address.
 
 ### **5️⃣ Access the Web Interface**
@@ -54,7 +52,7 @@ Open a browser and go to:
 http://<raspberry-pi-ip>:8000
 ```
 
----
+
 
 ## **🕹️ Usage Instructions**
 ### **Web Controls**
@@ -72,7 +70,7 @@ http://<raspberry-pi-ip>:8000
 
 🎮 Ensure the controller is connected before launching the web interface.
 
----
+
 
 ## **📂 Project Structure**
 ```bash
@@ -93,7 +91,7 @@ http://<raspberry-pi-ip>:8000
 │── run.sh                    # Shell script to start the server
 ```
 
----
+
 
 ## **🚀 Future Enhancements**
 - 🎤 **Voice Control** - Enable control using voice commands.
@@ -101,7 +99,7 @@ http://<raspberry-pi-ip>:8000
 - 📡 **Cloud-Based Control** - Access via an online dashboard.
 - 🎭 **Facial Recognition** - Identify users with AI.
 
----
+
 
 ## **📝 License & Credits**
 This project is licensed under the **MIT License**.
